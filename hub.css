@@ -1,0 +1,104 @@
+body,
+ul, 
+li, 
+p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+ }
+
+ img {
+     max-width: 100%;
+     display: block;
+ }
+ .header{
+    background:black;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 140px;
+ }
+ .header a {
+    text-decoration: none;
+    color: white;
+}
+ .clique {
+     display: inline-block;
+     text-align: center;
+ }
+
+ .clique li{
+     margin-right: 20px;
+ }
+
+.clique li a {
+     display: inline-block;
+     padding: 10px; 
+}
+.botoes { 
+    background-color: #E4E849;
+    display: block;
+    padding: 10px;
+    border-radius: 11px;
+    text-align: center;
+}
+
+.botoestopo {
+    background:none;
+    border-style: groove;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-size-adjust: 20px;
+}
+.titulopagina {
+    text-align: center;
+}
+
+#font {
+    font-size: 15px;
+}
+ /* css flexbox */
+
+ .flex {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+ }
+ .flex img {
+    height: 30px;
+    width: 30px;
+   margin: 0 auto; 
+   
+
+}
+
+ .flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+ }
+
+.flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+ .flex2 > div {
+    flex: 1 1 200px;
+    margin: 10px;
+    border-style: ridge;
+    border-radius: 5px;
+    border-color: black;
+    padding: 15px;
+ }
+
+ .rodape {
+     background-color: black;
+     height: 80px;
+ }
