@@ -1,0 +1,159 @@
+body {
+    background-color: #ccc;
+}
+
+header {
+    background-color: #000000;
+    padding-bottom: 48px;
+}
+
+main {
+    display: block;
+}
+
+header h1 {
+    color: #ffffff;
+    margin-bottom: 0px;
+    width: 50%;
+}
+
+header h2 {
+    color: #E4E849;
+    margin-top: 0px;
+}
+
+header .enunciado {
+    display: block;
+    margin: -38px auto 0px 20%;
+}
+
+/*Display flex + justify content:space between para fazer os elementos serem divididos com um espaço 
+entre eles*/
+
+header .container-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 42px 0px;
+}
+
+
+/*Margem negativa para fazer o formulário subir um pouco para o cabeçalho
+e max-width para limitar a largura do formulário em telas muito grandes*/
+
+main .container-form {
+    width: 60%;
+    max-width: 1400px;
+    display: block;
+    margin: -60px auto 0px;
+    padding: 0px 0px 0px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+main .container-form h3 {
+    font-size: 20pt;
+    margin-bottom: 12px;
+    margin-left: 8%;
+    padding-top: 12px;
+}
+
+main .container-form hr {
+    margin-top: 0px;
+    width: 90%;
+}
+
+main .container-form form {
+    padding: 8px;
+    text-align: center;
+}
+
+main .container-form .input-block {
+    position: relative;
+    margin: 8px auto 8px;
+    width: 80%;
+}
+
+main .container-form .input-block input {
+    width: 100%;
+    height: 40px;
+    margin: 8px auto 8px;
+    border-radius: 8px;
+    border-color: #cccccc;
+}
+
+main .container-form .input-block label {
+    text-align: start;
+    font-weight: bold;
+    display: block;
+}
+
+.row {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10% 0px;
+}
+
+main .container-form .termos {
+    text-align: start;
+    margin-left: 10%;
+}
+
+main .container-form .termos input {
+    display: inline-flex;
+    height: 12px;
+    width: 12px;
+}
+
+main .container-form .termos label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    width: 60%;
+    max-width: 1400px;
+    height: 100px;
+    margin: 0px auto 8px;
+    padding: 0px 5% 0px;
+}
+
+footer .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .left img {
+    width: 32px;
+    height: 32px;
+}
+
+footer p {
+    color: #E4E849;
+    font-size: 12px;
+}
+
+footer button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #E4E849;
+    color: #000000;
+    height: 40px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+footer button:hover {
+    background-color: #a8ab30;
+}
