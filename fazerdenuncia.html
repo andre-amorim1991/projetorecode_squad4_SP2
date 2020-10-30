@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Fazer Denúncia</title>
+    <link rel="stylesheet" href="./css/globalforms.css" />
+    <link rel="stylesheet" href="./css/fazerdenuncia.css" />
+    <script src="./scripts/fazerdenuncia.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-img">
+            <a href="hub.html"><img src="./imagens/arrow-left-circle-fill.svg " alt=" " /></a>
+            <img src="./imagens/instagram-fill.svg " alt="Logo " />
+        </div>
+
+
+        <div class="tema">
+            <h1>Fazer Denúncia</h1>
+        </div>
+    </header>
+    <main>
+        <aside class="menu-lateral">
+            <ul>
+                <li>Você está logado!</li>
+                <li><a href="#">Meus Dados</a></li>
+                <li><a href="denuncias.html">Minhas Denúncias</a></li>
+                <li><a href="denuncias.html">Buscar Denúncias</a></li>
+                <li><a href="index.html">Sair</a></li>
+            </ul>
+        </aside>
+
+        <div class="container-formulario">
+            <form action="#">
+                <div class="input-formulario">
+                    <label for="nome_denuncia">Digite o nome da empresa</label>
+                    <input type="text" name="nome_denuncia" id="nome_denuncia" />
+                </div>
+
+                <div class="input-formulario">
+                    <label for="endereco_denuncia">Digite o endereço da empresa:</label>
+                    <input type="text" name="endereco_denuncia" id="endereco_denuncia" />
+                </div>
+
+                <div class="input-formulario">
+                    <label for="titulo_denuncia">Digite um título para a denúncia:</label>
+                    <input type="text" name="titulo_denuncia" id="titulo_denuncia" />
+                </div>
+
+                <div id="caixadetexto" class="input-formulario">
+                    <label for="escreva_denuncia">Escreva o que ocorreu:</label>
+                    <textarea name="escreva_denuncia" id="escreva_denuncia" placeholder=" ATENÇÃO: Conforme recomendação anterior, você deve relatar o real ocorrido com o máximo de detalhes possível !!!"></textarea>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <form>
+                <input type="radio" id="anonimo" name="tipodedenuncia" value="anonimo" checked />
+                <label for="anonimo">Anônimo</label> <br />
+
+                <input type="radio" id="nomeproprio" name="tipodedenuncia" value="nomeproprio" />
+                <label for="nomeproprio">Nome Próprio</label>
+            </form>
+            <button onclick="denunciar()">ENVIAR</button>
+        </footer>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+}
+/* Formatação do cabeçalho */
+
+nav {
+    position: relative;
+    display: block;
+    background-color: black;
+    height: 126px;
+    padding: 8px 5px;
+}
+
+.logo {
+    display: block;
+    margin-left: 26px;
+    width: 200px;
+    padding: 6px;
+}
+
+.logo img{
+    margin-left:4px;
+}
+
+.link{
+    padding: 5px;
+}
+
+.links {
+    position: absolute;
+    height: 20px;    
+    left: 550px;
+    bottom: 50px;    
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    color: yellow;
+    height: 20px;
+    margin: 38px;
+    font-weight: bold;   
+}
+/* Fim formatação do cabeçalho */
+/* Formatação da section principal */
+main {
+    background: url("../imagens/planodefundohome.png") no-repeat center ;
+    background-size: cover;
+    background-position: fixed;
+    height: 900px;
+}
+
+.principal {
+    padding-top:36px ;
+    padding-inline-start: 20px;
+}
+.principal h1{
+    color: white;
+    font-size: 32px;
+}
+
+.principal h2{
+    width: 450px;
+    margin: 20px 0px;
+    color: yellow;
+    font-size: 24px;
+}
+.principal h3 a{
+    text-decoration: none;
+    color:white;
+}
+/* .inclusao{
+    display:flex;
+    justify-content: center; 
+}*/
+.principal h3 {
+    /* display: flex;
+    justify-content: right; */
+    color: whitesmoke;
+    width: 400px;
+    font-size: 25px;
+}
+
+
+/* Posicionamnento dos botões de denúncia */
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;    
+    margin: 500px 100px 0px 100px;
+}
+
+button {   
+    position: relative;
+    width: 180px;
+    height: 64px;
+    color: white;
+    background: none;
+    border-radius: 5px;
+    border-color: white;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+/* Fim do posicionamento dos botões de denúncia */
+/* Fim da formatação da section principal */
+
+/* Formatação quem somos */
+.artigos2 {
+    background: url("../imagens/fundoquemsomos.png") no-repeat center;
+    background-size: cover;
+    background-position: fixed;
+    font-size: 24px;
+    text-align: center;   
+}
+
+.quemsomos h3 {
+   padding: 15px;
+}
+
+.artigos {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 250px 250px 250px;
+}
+/* fim formatação quem somos */
+/* foratação rodapé */
+.rodape{
+    background-color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: yellow;
+}
