@@ -31,7 +31,7 @@
         <div class="container-form">
             <h3 id="titulo" class="user">Seus dados</h3>
             <hr>
-            <form action="#" class="user">
+            <form action="#" class="user" id="form_usuario" method="POST">
 
                 <div class="input-block">
                     <label for="nome">Nome Completo</label>
@@ -132,7 +132,7 @@
                 <img src="./imagens/alert-fill.svg" alt="">
                 <p>Importante!<br> Preencha todos os dados.</p>
             </div>
-            <button onclick="enviar()" class="user">Salvar Cadastro</button>
+            <button type="submit" form="form_usuario" class="user">Salvar Cadastro</button>
         </footer>
     </main>
 
