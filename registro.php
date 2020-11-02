@@ -31,7 +31,7 @@
         <div class="container-form">
             <h3 id="titulo" class="user">Seus dados</h3>
             <hr>
-            <form action="#" class="user" id="form_usuario" method="POST">
+            <form action="cadastro_usuario.php" class="user" id="form_usuario" method="post">
 
                 <div class="input-block">
                     <label for="nome">Nome Completo</label>
@@ -53,7 +53,7 @@
 
                     <div class="input-block">
                         <label for="telefone">Telefone</label>
-                        <input type="text" name="telefone" id="telefone">
+                        <input type="text" name="telefone" id="telefone" placeholder="ex: 11 87654321">
                     </div>
                 </div>
                 <div class="input-block">
@@ -114,7 +114,7 @@
 
                 <div class="input-block">
                     <label for="confsenha">Confirme sua senha</label>
-                    <input type="password" name="confsenha" id="confsenha">
+                    <input type="password" name="conf_senha" id="confsenha">
                 </div>
 
 

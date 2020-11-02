@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 31-Out-2020 às 04:15
+-- Tempo de geração: 02-Nov-2020 às 22:15
 -- Versão do servidor: 5.7.31
 -- versão do PHP: 7.3.21
 
@@ -20,6 +20,7 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `sua_voz`
 --
+DROP DATABASE IF EXISTS `sua_voz`;
 CREATE DATABASE IF NOT EXISTS `sua_voz` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
 USE `sua_voz`;
 
@@ -122,24 +123,25 @@ CREATE TABLE IF NOT EXISTS `usuario` (
   `id_usuario` int(11) NOT NULL AUTO_INCREMENT,
   `status_conta` varchar(10) NOT NULL,
   `nome_completo` varchar(100) NOT NULL,
-  `apelido` varchar(100) NOT NULL,
+  `apelido` varchar(100) DEFAULT NULL,
   `cpf` varchar(20) NOT NULL,
   `rg` varchar(20) NOT NULL,
   `telefone` varchar(20) NOT NULL,
-  `e-mail` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
   `data_nascimento` date NOT NULL,
   `estado` char(2) NOT NULL,
   `cidade` varchar(60) NOT NULL,
   `senha` char(32) NOT NULL,
   PRIMARY KEY (`id_usuario`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
 
 --
 -- Extraindo dados da tabela `usuario`
 --
 
-INSERT INTO `usuario` (`id_usuario`, `status_conta`, `nome_completo`, `apelido`, `cpf`, `rg`, `telefone`, `e-mail`, `data_nascimento`, `estado`, `cidade`, `senha`) VALUES
-(1, 'ativo', 'efefefef', 'fefwefewfew', 'efgesf', 'fefefef', 'effefefe', 'fwsfewfewf', '2020-10-20', 'sp', 'efefef', 'efefefef');
+INSERT INTO `usuario` (`id_usuario`, `status_conta`, `nome_completo`, `apelido`, `cpf`, `rg`, `telefone`, `email`, `data_nascimento`, `estado`, `cidade`, `senha`) VALUES
+(1, 'ativo', 'efefefef', 'fefwefewfew', 'efgesf', 'fefefef', 'effefefe', 'fwsfewfewf', '2020-10-20', 'sp', 'efefef', 'efefefef'),
+(2, 'ativo', 'Rafael Silva Veja', NULL, '22264169869', '352978028', '11981042094', 'rafaelveja@gmail.com', '2020-11-19', 'SP', 'Guarulhos', '827ccb0eea8a706c4c34a16891f84e7b');
 
 --
 -- Restrições para despejos de tabelas
