@@ -26,8 +26,8 @@
             <ul>
                 <li>Você está logado!</li>
                 <li><a href="#">Meus Dados</a></li>
-                <li><a href="denuncias.html">Minhas Denúncias</a></li>
-                <li><a href="denuncias.html">Buscar Denúncias</a></li>
+                <li><a href="pesquise denuncias.html">Minhas Denúncias</a></li>
+                <li><a href="pesquise denuncias.html">Buscar Denúncias</a></li>
                 <li><a href="index.html">Sair</a></li>
             </ul>
         </aside>
@@ -51,19 +51,13 @@
 
                 <div id="caixadetexto" class="input-formulario">
                     <label for="escreva_denuncia">Escreva o que ocorreu:</label>
-                    <textarea name="escreva_denuncia" id="escreva_denuncia" placeholder=" ATENÇÃO: Conforme recomendação anterior, você deve relatar o real ocorrido com o máximo de detalhes possível !!!"></textarea>
+                    <textarea name="escreva_denuncia" id="escreva_denuncia" placeholder=" ATENÇÃO: Conforme recomendação anterior, você deve relatar o REAL ocorrido com o máximo de detalhes possível !!!"></textarea>
                 </div>
             </form>
         </div>
 
         <footer>
-            <form>
-                <input type="radio" id="anonimo" name="tipodedenuncia" value="anonimo" checked />
-                <label for="anonimo">Anônimo</label> <br />
-
-                <input type="radio" id="nomeproprio" name="tipodedenuncia" value="nomeproprio" />
-                <label for="nomeproprio">Nome Próprio</label>
-            </form>
+            <p>Seu relato será divulgado como ANÔNIMO</p>
             <button onclick="denunciar()">ENVIAR</button>
         </footer>
     </main>
