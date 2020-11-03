@@ -23,7 +23,7 @@
         <h1 id="titulo">Seus dados de login</h1>
 
         <div class="link">
-            <a href="registro.html">
+            <a href="registro.php">
            Ainda não tem uma conta?
            </a>
         </div>

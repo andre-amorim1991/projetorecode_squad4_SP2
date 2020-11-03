@@ -13,12 +13,12 @@
         <nav class="menu">
             <div class="link">
                 <div class="logo">
-                    <a href="index.html"><img src="imagens/logosuavoz.png " alt="lotipo Sua Voz"></a>
+                    <a href="index.php"><img src="imagens/logosuavoz.png " alt="lotipo Sua Voz"></a>
                 </div>
                 <div class="links">
-                    <a href="hub.html">Como diversificar sua empresa</a>
+                    <a href="hub.php">Como diversificar sua empresa</a>
                     <a href="#text1">Quem somos</a>
-                    <a href="login.html">Login</a>
+                    <a href="login.php">Login</a>
                 </div>
             </div>
         </nav>
