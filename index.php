@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Sua Voz</title>
     <link rel="stylesheet" href="css/estiloindex.css">
-    <link rel="stylesheet" href="projeto-recode-s04/globalforms.css">
+    <link rel="stylesheet" href="css/globalforms.css">
 </head>
 
 <body>
@@ -13,12 +13,12 @@
         <nav class="menu">
             <div class="link">
                 <div class="logo">
-                    <a href="index.html"><img src="imagens/logosuavoz.png " alt="lotipo Sua Voz"></a>
+                    <a href="index.php"><img src="imagens/logosuavoz.png " alt="lotipo Sua Voz"></a>
                 </div>
                 <div class="links">
-                    <a href="hub.html">Como diversificar sua empresa</a>
+                    <a href="hub.php">Como diversificar sua empresa</a>
                     <a href="#text1">Quem somos</a>
-                    <a href="login.html">Login</a>
+                    <a href="login.php">Login</a>
                 </div>
             </div>
         </nav>
@@ -27,48 +27,77 @@
 
         <section>
             <h1>DEBATER, REFLETIR, MELHORAR!</h1>
+            <h3>Por um ambiente de trabalho livre de discriminação.</h3>
         </section>
-        <section class="diversidade">
-            <h2>Diversidade além do papel, venha conosco tornar os ambientes mais diversos e inclusivos.</h2>
-        </section>
-        <section class="inclusao">
-            <h3>Por um ambiente de trabalho livre de discriminação.<br><a href="hub.html">Descubra como.</a></h3>
-            
-           
-        </section>
+        
+        
         <div class="botoes">
-            <button class="busdenuncias" onclick="troca1">Buscar<br> denúncias</button>
 
-            <button class="denunciar" onclick="troca2">Denúnciar</button>
+            <button class="denunciar">Denunciar</button>
+
+
+            <button class="busdenuncias" >Buscar<br> denúncias</button>
+
         </div>
+
+
+
+        <section class="diversidade">
+            <section class="direito">
+            <h2>Quando você compartilha
+                uma situação de discriminação, 
+                você ajuda a cobrarmos a sociedade a ter
+                um posicionamento para mudar essa situação</h2>
+            </section>
+            <section class="esquerdo">
+                <h2>Quando você promove
+                um ambiente de inclusão, 
+                você torna o mundo melhor!</h2>
+    </section>
+        </section>
+                
     </main>
 
     <section class="artigos2">
-        <div class="quemsomos">
+        <div>
             <h3>Quem Somos<a name="text1"></a></h3>
         </div>
-        <div class="artigos">
-            <div class="suavozimg">
-                <img src="imagens/suavoz.png" alt="mãos unidas em uma reunião de trabalho" width="350px" height="200px">
-            </div>
-            <div class="Suavoz">
-                <h3>Sua Voz</h3>
-                <p>Sua Voz foi fundada em 2020 com objetivo de tornar empresas mais diversas e inclusivas, por meio de consultorias. 
-                </p>
-            </div>
-            <div>
+        
+        <!-- SUA VOZ IMAGEM E TEXTO -->
+        <section class="quemsomos">
+            
+                <div class="suavozimg">
+                    <img src="imagens/suavoz.png" alt="mãos unidas em uma reunião de trabalho" width="350px" height="200px">
+                </div>            
+                <div class="Suavoz">
+                 <h3>Sua Voz</h3>
+                    <p>Tem o intuito de dar Voz aos que precisam relatar situações discriminatórias REAIS ocorridas no mundo corporativo, dentro de empresas que muitas vezes não aprovariam qualquer tipo de discriminação, auxiliando identificar a situação para que possam criar um planejamento estratégico de DIVERSIDADE e INCLUSÃO que seja realmente colocado em PRÁTICA.
+                    </p>
+                </div>    
+            
+        </section>
+            <!-- NOSSOS VALORES IMAGEM E TEXTO -->
+            <hr class='divisao'>
+        <section class="valores">
+             <div>
                 <h3>Nossos valores</h3>
-                <p>Diversidade e inclusão são bases de nossa essência,  </p>
+                <p>Buscamos causar impacto social, conscientizando e provocando reflexão para que culturas organizacionais se tornem diversas e inclusivas na prática, assim prevenindo a discriminação, o preconceito e a intolerância, prestigiando a todos com dignidade e a igualdade de oportunidades no mercado de trabalho.  </p>
             </div>
-            <div><img src="imagens/valores.png" alt="quadro em ingles escrito que sua vida importa" width="350px" height="200px"></div>
+            <div><img src="imagens/valores-2.jpeg" alt="quadro em ingles escrito que sua vida importa" width="350px" height="200px"></div>
+        </section>
+            
+            <hr class='divisao'>
 
-            <div class="suavozimg">
-                <img src="imagens/nossoobjetivo.png" alt="um grid de largada, de corrida olimpica." width="350px" height="200px">
-            </div>
-            <div class="Suavoz">
-                <h3>Nossa Misssão</h3>
-                <p>Ajudar pessoas a terem empregos plenos e decentes, atravé da inclusão e diversidade nos ambientes de trabalho. </p>
-            </div>
+            <!-- NOSSA MISSÂO IMAGEM E TEXTO -->
+            <section class="missao">
+                <div class="suavozimg">
+                    <img src="imagens/nossoobjetivo.png" alt="um grid de largada, de corrida olimpica." width="350px" height="200px">
+                </div>      
+                <div class="Suavoz">
+                    <h3>Nossa Misssão</h3>
+                    <p>Nossa missão é, através da plataforma Sua Voz, converter situações inadimicíveis em ferramentas de reflexão e mudança, na intenção de tornar os ambientes corporativos humanos e acolhedores para todos os tipos de pessoas. </p>
+                </div>
+            </section>
         </div>
         <footer>
             <div class="rodape">

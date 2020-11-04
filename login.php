@@ -23,34 +23,36 @@
         <h1 id="titulo">Seus dados de login</h1>
 
         <div class="link">
-            <a href="registro.html">
+            <a href="registro.php">
            Ainda não tem uma conta?
            </a>
         </div>
 
 
         <hr>
-        <form action="#">
+        <form id="enviar" action="login_usuario.php" method="post">
             <div class="log">
-                <label for="e-mail">E-mail</label>
-                <input type="text" name="e-mail">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail">
             </div>
             <div class="log">
                 <label for="senha">Senha</label>
-                <input type="password" name="senha">
+                <input type="password" name="senha" placeholder="Digite sua senha">
+               
             </div>
-
-        </form>
+           
+         </form> 
 
         <div class="link">
             <a href="#">Esqueceu sua senha?</a>
             <div>
 
                 <footer>
-                    <button onclick="entrar()">Entrar</button>
+                    <button type="submit"  form="enviar" /*onclick="entrar()"*/>Entrar</button>
                 </footer>
             </div>
-            </main>
+        
+           
 </body>
 
 </html>

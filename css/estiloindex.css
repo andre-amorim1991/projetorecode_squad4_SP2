@@ -45,42 +45,51 @@ nav {
 /* Fim formatação do cabeçalho */
 /* Formatação da section principal */
 main {
-    background: url("../imagens/planodefundohome.png") no-repeat center ;
+    background: url("../imagens/fundo-index.jpeg") no-repeat center ;
     background-size: cover;
     background-position: fixed;
     height: 900px;
+    align-items:center ;
 }
 
 .principal {
     padding-top:36px ;
     padding-inline-start: 20px;
 }
-.principal h1{
-    color: white;
+.principal h1, h3{
+    color: whitesmoke;
     font-size: 32px;
+    text-align: center;
 }
 
 .principal h2{
     width: 450px;
-    margin: 20px 0px;
-    color: yellow;
+    margin: 20px 20px;
+    color: whitesmoke;
     font-size: 24px;
+    text-align: left;
+
 }
 .principal h3 a{
     text-decoration: none;
     color:white;
+    text-align: center;
 }
-/* .inclusao{
-    display:flex;
-    justify-content: center; 
-}*/
-.principal h3 {
-    /* display: flex;
-    justify-content: right; */
+
+.diversidade {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    
+}
+
+/* .principal h3 {
+   
     color: whitesmoke;
     width: 400px;
     font-size: 25px;
-}
+    text-align: center;
+} */
 
 
 /* Posicionamnento dos botões de denúncia */
@@ -88,7 +97,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;    
-    margin: 500px 100px 0px 100px;
+    margin: 300px 100px 0px 100px;
 }
 
 button {   
@@ -103,6 +112,7 @@ button {
     margin-bottom: 10px;
     justify-content: space-between;
     font-size: 20px;
+   
 }
 /* Fim do posicionamento dos botões de denúncia */
 /* Fim da formatação da section principal */
@@ -116,16 +126,31 @@ button {
     text-align: center;   
 }
 
+.quemsomos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.missao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.valores {
+    display: flex;
+    justify-content: space-between;
+}
 .quemsomos h3 {
    padding: 15px;
 }
 
-.artigos {
+/* .artigos {
     justify-content: center;
     display: grid;
-    grid-template-columns: 30% 30%;
-    grid-template-rows: 250px 250px 250px;
-}
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 500px 500px 500px;
+} */
 /* fim formatação quem somos */
 /* foratação rodapé */
 .rodape{
@@ -134,4 +159,9 @@ button {
     font-style: italic;
     font-size: 14px;
     color: yellow;
+}
+.divisao{
+    height: 10px;
+    margin: 30px;
+    background-color:black;
 }
