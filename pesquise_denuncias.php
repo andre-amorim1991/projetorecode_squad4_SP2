@@ -31,10 +31,10 @@ if (!$conn) {
 
         <div class=imagem_voltar>
             <a href="index.php"><img src="./imagens/arrow-left-circle-fill.svg"></a>
-            <button onclick="location.href='fazerdenuncia.php'">Fazer uma denuncia</button>
+            <button onclick="location.href='fazerdenuncia.php'">Fazer uma denúncia</button>
         </div>
         <div class="enunciado">
-            <h1>Pesquise denuncias pelo nome da empresa:</h1>
+            <h1>Pesquise denúncias pelo nome da empresa:</h1>
             <div class="button_header">
                 <input type="text" name="nome da empresa" id="filtro" placeholder="nome da empresa">
                 <button type="button" onclick="filtroEmpresa()">Pesquisar</button>

@@ -1,11 +1,11 @@
 <?php
-    session_start();
+  /*  session_start();
 
     // Se não existir um valor no índice 'nome', então encerre a aplicação
     if (!isset($_SESSION['nome_completo'])) {
         header('Location: index.php');
         exit;
-    }
+    }*/
 ?>
 
 <!DOCTYPE html>
@@ -44,7 +44,7 @@
         <div class="botoes">
             <img src="./imagens/iconpasta.png">
             <br>
-            <a href="#text2">MINHAS DENÚNCIAS</a>
+            <a href="pesquise_denuncias.php">MINHAS DENÚNCIAS</a>
         </div>
         <div class="botoes">
             <img src="./imagens/config.png">
@@ -54,7 +54,7 @@
         <div class="botoes">
             <img src="./imagens/iconsair.png">
             <br>
-            <p>SAIR</p>
+            <a href="<?php //session_destroy()?>">Sair</a>
         </div>
     </section>
 

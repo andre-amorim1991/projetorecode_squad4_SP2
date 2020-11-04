@@ -37,9 +37,9 @@
            
         </section>
         <div class="botoes">
-            <button class="busdenuncias" onclick="troca1">Buscar<br> denúncias</button>
+            <button class="busdenuncias" onclick="window.location.href='pesquise_denuncias.php'">Buscar<br> denúncias</button>
 
-            <button class="denunciar" onclick="troca2">Denúnciar</button>
+            <button class="denunciar" onclick="window.location.href='fazerdenuncia.php'">Denunciar</button>
         </div>
     </main>
 

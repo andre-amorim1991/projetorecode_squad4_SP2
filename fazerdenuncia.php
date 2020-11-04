@@ -23,7 +23,7 @@
 <body>
     <header>
         <div class="container-img">
-            <a href="hub.html"><img src="./imagens/arrow-left-circle-fill.svg " alt=" " /></a>
+            <a href="hub.php"><img src="./imagens/arrow-left-circle-fill.svg " alt=" " /></a>
             <img src="./imagens/instagram-fill.svg " alt="Logo " />
         </div>
 
