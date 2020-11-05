@@ -17,17 +17,26 @@ if (!$conn) {
     die("A conexão falhou: " . mysqli_connect_error());
 };
 
+
+session_start();
+
 $idTopico = $_POST['id_topico'];
 $corpoResposta = $_POST['corpo_resposta'];
-$idUsuario = 2; //$_SESSION['id_usuario'];
+$idUsuario = $_SESSION['id_usuario'];
 
-$sql = "insert into respostas
+if (isset($_SESSION['id_usuario'])) {
+
+    $sql = "insert into respostas
     (id_empresa,id_usuario,id_reclamacao,data_e_hora,corpo_resposta) 
     values
     (null,'$idUsuario','$idTopico',now(),'$corpoResposta');";
 
-if ($conn->query($sql) === TRUE) {
-    echo "<script>alert('Resposta inserida com sucesso');window.location.href = 'pesquise_denuncias.php';</script>";
+    if ($conn->query($sql) === TRUE) {
+        echo "<script>alert('Resposta inserida com sucesso');window.location.href = 'pesquise_denuncias.php';</script>";
+    } else {
+        echo "Error: " . $sql . "<br>" . $conn->error;
+    }
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo 'você não deveria estar aqui';
+
 }

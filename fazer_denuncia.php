@@ -1,5 +1,5 @@
 <?php
-//session_start();
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -16,7 +16,7 @@ $endereco= $_POST['enderecodenuncia'];
 $titulo= $_POST['titulodenuncia'];
 $corpo= $_POST['escrevadenuncia'];
 $endereco = $_POST['enderecodenuncia'];
-$idUsuario = 1;//$_SESSION['id_usuario'];
+$idUsuario = $_SESSION['id_usuario'];
 
 
 

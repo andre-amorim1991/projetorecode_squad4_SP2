@@ -30,7 +30,7 @@ if (!$conn) {
         <!--Na header em CSS tem uma imagem de background-->
 
         <div class=imagem_voltar>
-            <a href="index.php"><img src="./imagens/arrow-left-circle-fill.svg"></a>
+            <img src="./imagens/arrow-left-circle-fill.svg" onclick="history.back()" style="cursor:pointer;">
             <button onclick="location.href='fazerdenuncia.php'">Fazer uma denúncia</button>
         </div>
         <div class="enunciado">

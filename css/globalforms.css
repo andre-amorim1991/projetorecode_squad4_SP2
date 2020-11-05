@@ -11,7 +11,7 @@ body, html {
     margin: 0;
 }
 
-label,p,button {
+label,p,button,a {
     font-family: 'Montserrat',sans-serif;
     
 }

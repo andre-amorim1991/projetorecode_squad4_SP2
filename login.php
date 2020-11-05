@@ -1,20 +1,28 @@
+<?php
+
+session_start();
+if (isset($_SESSION['nome'])) {
+    header('Location: hub.php');
+    exit;
+}
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="./globalforms.css">
-    <link rel="stylesheet" href="./login.css">
-    <script src="./scripts/registro.js"></script>
+    <link rel="stylesheet" href="./css/globalforms.css">
+    <link rel="stylesheet" href="./css/login.css">
 </head>
 
 <body>
 
-    <header>
+    <header style="background-image:url('./imagens/diversity-teamwork-with-joined-hands.png');">
         <div class=container-img>
-            <img src="./imagens/arrow-left-circle-fill.svg" alt="">
-            <img src="./imagens/instagram-fill.svg" alt="Logo">
+            <img src="./imagens/arrow-left-circle-fill.svg" alt="" onclick="history.back()" style="cursor:pointer;">
+            <img src="./imagens/logo teste  2.png" alt="Logo">
         </div>
 
     </header>
@@ -48,7 +56,7 @@
             <div>
 
                 <footer>
-                    <button type="submit"  form="enviar" /*onclick="entrar()"*/>Entrar</button>
+                    <button type="submit"  form="enviar">Entrar</button>
                 </footer>
             </div>
         

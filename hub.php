@@ -1,8 +1,7 @@
 <?php
-
 session_start();
 
-if (!isset($_SESSION['email'])) {
+if (!isset($_SESSION['nome']) || $_SESSION['statusconta']!='ativo') {
     header('Location: index.php');
     exit;
 }
@@ -22,16 +21,16 @@ if (!isset($_SESSION['email'])) {
 
 <body>
 
-    <header class="header">
+    <header class="header" style="background-image:url('./imagens/diversity-teamwork-with-joined-hands.png');">
         <div>
             <img src="./imagens/seta voltar.svg" alt="">
         </div>
         <a href="index.php"><img src="./imagens/logo amarelo 1.png" width="15%" alt=""></a>
         <div>
             <ul>
-                <li class="botoestopo"><a href="denuncias.html" lista>Buscar Denúncias</a></li>
+                <li class="botoestopo"><a href="pesquise_denuncias.php" lista>Buscar Denúncias</a></li>
                 <br>
-                <li class="botoestopo"><a href="fazerdenuncias.html" lista>Denunciar</a></li>
+                <li class="botoestopo"><a href="fazerdenuncia.php" lista>Denunciar</a></li>
             </ul>
         </div>
 
@@ -56,7 +55,7 @@ if (!isset($_SESSION['email'])) {
         <div class="botoes">
             <img src="./imagens/iconsair.png">
             <br>
-            <a href="<?php session_destroy()?>">SAIR</a>
+            <a href="logout.php">SAIR</a>
         </div>
     </section>
 
@@ -151,7 +150,7 @@ if (!isset($_SESSION['email'])) {
 
                 <h5> COMO DENUNCIAR E FAZER O ACOMPANHAMENTO ?</h5>
 
-                Basta selecionar o botão "DENÚNCIAR" no topo da pagína, e seguir as
+                Basta selecionar o botão "DENUNCIAR" no topo da pagína, e seguir as
                 etapas de preenchimento do formulário de perguntas. É muito importante trazer referencias, como site e
                 contato
                 da empresa no preenchimento do formulario que fica acima do texto de denúncias ao invés do campo de

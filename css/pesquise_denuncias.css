@@ -3,7 +3,7 @@ body {
 
 header {
     height: 250px;
-    background-image: url("../imagens/diversity-teamwork-with-joined-hands-FRACL2W\ 1.png");
+    background-image: url("../imagens/diversity-teamwork-with-joined-hands.png");
     background-repeat: no-repeat;
     background-size: 100%;        
 }
@@ -190,7 +190,7 @@ footer {
     background-color: #000000;
     width: 100%;
     max-width: 1400px;
-    height: 125px;
+    height: 75px;
 
 }
 

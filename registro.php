@@ -17,10 +17,10 @@
 <body>
 
     <!-- header é a parte preta do topo, coloquei duas divs para estilizar cada uma de um jeito-->
-    <header style="background-image:url('./imagens/diversity-teamwork-with-joined-hands-FRACL2W\ 1.png')">
+    <header style="background-image:url('./imagens/diversity-teamwork-with-joined-hands.png')">
         <div class=container-img>
-            <img src="./imagens/arrow-left-circle-fill.svg" alt="">
-            <img src="./imagens/logo teste  2.png" alt="Logo">
+            <img src="./imagens/arrow-left-circle-fill.svg" alt="" onclick="history.back()" style="cursor:pointer;">
+            <img src="./imagens/logo teste  2.png" alt="Logo" onclick="location.href='index.php'" style="cursor:pointer;">
         </div>
         <div class="enunciado">
             <h1>Se quer ajudar a mudar o mercado, pode começar por aqui</h1>

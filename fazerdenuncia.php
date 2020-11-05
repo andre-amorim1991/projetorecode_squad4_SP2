@@ -1,10 +1,11 @@
 <?php
-//session_start();
+session_start();
 //Se não existir um valor no nome da sessão, encerra o processamento
-//if(!isset($_SESSION['nome']) || $_SESSION['status_conta']!='ativo'){
-//    header('Location: index.php');
-//   exit;
-//}
+
+if (!isset($_SESSION['email'])) {
+    header('Location: login.php');
+    exit;
+}
 
 
 ?>
@@ -21,10 +22,10 @@
 </head>
 
 <body>
-    <header>
+    <header style="background-image:url('./imagens/diversity-teamwork-with-joined-hands.png');">
         <div class="container-img">
-            <a href="hub.php"><img src="./imagens/arrow-left-circle-fill.svg " alt=" " /></a>
-            <img src="./imagens/instagram-fill.svg " alt="Logo " />
+            <img src="./imagens/arrow-left-circle-fill.svg " alt="Voltar" onclick="history.back()" style="cursor:pointer;"/>
+            <img src="./imagens/logo teste  2.png" alt="Logo "  onclick="location.href='index.php'" style="cursor:pointer;"/>
         </div>
 
 

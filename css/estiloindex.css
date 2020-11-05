@@ -126,6 +126,10 @@ button {
     text-align: center;   
 }
 
+h3.artigoblack {
+    color: black;
+}
+
 .quemsomos {
     display: flex;
     justify-content: space-between;

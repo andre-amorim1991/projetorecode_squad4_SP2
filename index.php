@@ -59,7 +59,7 @@
 
     <section class="artigos2">
         <div>
-            <h3>Quem Somos<a name="text1"></a></h3>
+            <h3 class="artigoblack">Quem Somos<a name="text1"></a></h3>
         </div>
         
         <!-- SUA VOZ IMAGEM E TEXTO -->
@@ -70,7 +70,7 @@
                 </div>            
                 <div class="Suavoz">
                  <h3>Sua Voz</h3>
-                    <p>Tem o intuito de dar Voz aos que precisam relatar situações discriminatórias REAIS ocorridas no mundo corporativo, dentro de empresas que muitas vezes não aprovariam qualquer tipo de discriminação, auxiliando identificar a situação para que possam criar um planejamento estratégico de DIVERSIDADE e INCLUSÃO que seja realmente colocado em PRÁTICA.
+                    <p>Tem o intuito de dar voz aos que precisam relatar situações discriminatórias REAIS ocorridas no mundo corporativo, dentro de empresas que muitas vezes não aprovariam qualquer tipo de discriminação, auxiliando identificar a situação para que possam criar um planejamento estratégico de DIVERSIDADE e INCLUSÃO que seja realmente colocado em PRÁTICA.
                     </p>
                 </div>    
             
@@ -79,7 +79,7 @@
             <hr class='divisao'>
         <section class="valores">
              <div>
-                <h3>Nossos valores</h3>
+                <h3 class="artigoblack">Nossos valores</h3>
                 <p>Buscamos causar impacto social, conscientizando e provocando reflexão para que culturas organizacionais se tornem diversas e inclusivas na prática, assim prevenindo a discriminação, o preconceito e a intolerância, prestigiando a todos com dignidade e a igualdade de oportunidades no mercado de trabalho.  </p>
             </div>
             <div><img src="imagens/valores-2.jpeg" alt="quadro em ingles escrito que sua vida importa" width="350px" height="200px"></div>
@@ -93,8 +93,8 @@
                     <img src="imagens/nossoobjetivo.png" alt="um grid de largada, de corrida olimpica." width="350px" height="200px">
                 </div>      
                 <div class="Suavoz">
-                    <h3>Nossa Misssão</h3>
-                    <p>Nossa missão é, através da plataforma Sua Voz, converter situações inadimicíveis em ferramentas de reflexão e mudança, na intenção de tornar os ambientes corporativos humanos e acolhedores para todos os tipos de pessoas. </p>
+                    <h3 class="artigoblack">Nossa Missão</h3>
+                    <p>Nossa missão é, através da plataforma Sua Voz, converter situações inadmissíveis em ferramentas de reflexão e mudança, na intenção de tornar os ambientes corporativos humanos e acolhedores para todos os tipos de pessoas. </p>
                 </div>
             </section>
         </div>
