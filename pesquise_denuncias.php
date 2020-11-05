@@ -1,4 +1,5 @@
 <?php
+session_start();
 $servername = "localhost";
 $username = "root";
 $password = "";
@@ -147,12 +148,13 @@ if (!$conn) {
                         <?php
                             }
                         }
-                        ?>
-
-                        <div class="button">
+                        if(isset($_SESSION['nome'])){
+                            echo '                        <div class="button">
 
                             <button onclick="showForm(this.parentElement)">Responder</button>
-                        </div>
+                        </div>';
+                        }
+                        ?>
                         <form action="responder.php" class="responder <?php echo $id_reclamacao;?>" method="POST" id="<?php echo $id_reclamacao;?>" hidden>
                             <textarea name="corpo_resposta" id="" cols="30" rows="10"></textarea>
                             <input type="number" name="id_topico" value="<?php echo $id_reclamacao;?>" hidden>
