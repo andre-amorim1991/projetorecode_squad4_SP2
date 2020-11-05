@@ -69,7 +69,7 @@
                     <img src="imagens/suavoz.png" alt="mãos unidas em uma reunião de trabalho" width="350px" height="200px">
                 </div>            
                 <div class="Suavoz">
-                 <h3>Sua Voz</h3>
+                 <h3 class="artigoblack">Sua Voz</h3>
                     <p>Tem o intuito de dar voz aos que precisam relatar situações discriminatórias REAIS ocorridas no mundo corporativo, dentro de empresas que muitas vezes não aprovariam qualquer tipo de discriminação, auxiliando identificar a situação para que possam criar um planejamento estratégico de DIVERSIDADE e INCLUSÃO que seja realmente colocado em PRÁTICA.
                     </p>
                 </div>    
