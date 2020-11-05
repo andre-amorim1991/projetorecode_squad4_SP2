@@ -1,7 +1,5 @@
 body {
-    background-color: #ccc;
-    background-image: url("../imagens/fundoquemsomos.png");
-}
+    background-color: #ccc;}
 
 header {
     height: 250px;
@@ -73,10 +71,16 @@ main .container {
     border-top-right-radius: 10px;
 }
 
+main .topico {
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+
 main .block{
     position: relative;
     margin: 8px auto 8px;
     width: 80%;
+    min-height: 200px;
 }
 
 main h2.primeiro_h2 {
@@ -188,4 +192,22 @@ footer {
     max-width: 1400px;
     height: 125px;
 
+}
+
+form.responder {
+    text-align: center;
+    margin-top: 10px;
+}
+
+form.responder textarea {
+    width: 60%;
+    
+}
+
+form.responder button{
+    margin-left: 10px;
+    background-color: #E4E849;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
 }

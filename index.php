@@ -33,11 +33,10 @@
         
         <div class="botoes">
 
-            <button class="denunciar">Denunciar</button>
-
-
-            <button class="busdenuncias" >Buscar<br> denúncias</button>
-
+            <button class="denunciar" onclick="window.location.href='fazerdenuncia.php'">Denunciar</button>
+                        
+            <button class="busdenuncias" onclick="window.location.href='pesquise_denuncias.php'">Buscar<br> denúncias</button>
+            
         </div>
 
 

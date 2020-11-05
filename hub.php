@@ -46,7 +46,7 @@ if (!isset($_SESSION['email'])) {
         <div class="botoes">
             <img src="./imagens/iconpasta.png">
             <br>
-            <a href="#text2">MINHAS DENÚNCIAS</a>
+            <a href="pesquise_denuncias.php">MINHAS DENÚNCIAS</a>
         </div>
         <div class="botoes">
             <img src="./imagens/config.png">

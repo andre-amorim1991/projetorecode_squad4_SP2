@@ -17,7 +17,7 @@
 <body>
 
     <!-- header é a parte preta do topo, coloquei duas divs para estilizar cada uma de um jeito-->
-    <header>
+    <header style="background-image:url('./imagens/diversity-teamwork-with-joined-hands-FRACL2W\ 1.png')">
         <div class=container-img>
             <img src="./imagens/arrow-left-circle-fill.svg" alt="">
             <img src="./imagens/logo teste  2.png" alt="Logo">
